@@ -1,14 +1,7 @@
-# Programming Languages for Data Analysis (CS504) — Assignment 2
+# COVID-19 Time-Series Analysis in R
 
-Coursework for **Programming Languages for Data Analysis (CS504)**, Department of Computer Science,
-Bishop's University.
-
-## COVID-19 analysis translated from Python to R
-
-The assignment provides a complete Python (pandas / scikit-learn) analysis of the Johns Hopkins
-CSSE global confirmed-cases series and asks for the **equivalent R code of the entire work**.
-
-The R solution is in [`Assignment_2_R.ipynb`](Assignment_2_R.ipynb) (Jupyter, R kernel).
+End-to-end R analysis of the Johns Hopkins CSSE global confirmed-cases series, covering daily case
+computation, province-level correlation, and PCA-based dimensionality reduction.
 
 ## What the notebook does
 
@@ -28,13 +21,13 @@ R packages used: `pheatmap`, `scatterplot3d` (plus base R for everything else).
 
 ```r
 install.packages(c("pheatmap", "scatterplot3d"))
-# open Assignment_2_R.ipynb with a Jupyter R kernel (IRkernel), or run the code in RStudio
+# open covid19_time_series_analysis_r.ipynb with a Jupyter R kernel (IRkernel), or run the code in RStudio
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Assignment_2_R.ipynb` | R solution (the deliverable) |
-| `Assignement_2_student.pdf` | Assignment description with the original Python work |
+| `covid19_time_series_analysis_r.ipynb` | Full implementation and analysis (R) |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
 | `time_series_covid19_confirmed_global.csv` | Source dataset (JHU CSSE) |
